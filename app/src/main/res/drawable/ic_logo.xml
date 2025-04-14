@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0h512v512h-512z" />
+
+    <!-- Esquinas de reconocimiento -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="20"
+        android:pathData="
+            M80,160v-80h80
+            M432,160v-80h-80
+            M80,352v80h80
+            M432,352v80h-80" />
+
+    <!-- Cabeza -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="12"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M256,120c-70,0 -100,70 -100,120s30,120 100,120 100,-70 100,-120 -30,-120 -100,-120z" />
+
+    <!-- Ojos -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="10"
+        android:pathData="
+            M200,240h20
+            M292,240h20" />
+
+    <!-- Nariz -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="8"
+        android:pathData="M256,240v35" />
+
+    <!-- Boca -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="8"
+        android:pathData="M220,310c20,15 50,15 70,0" />
+
+    <!-- Circuito lateral -->
+    <path
+        android:strokeColor="#00CFFF"
+        android:strokeWidth="8"
+        android:pathData="
+            M270,150l20,20
+            M290,170l-30,30
+            M260,200l-10,-10" />
+
+    <!-- Texto ReconFace -->
+    <group android:translateY="450">
+        <path
+            android:fillColor="#00CFFF"
+            android:pathData="M128,0h256v40h-256z" />
+        <group android:translateX="140" android:translateY="8">
+            <path
+                android:fillColor="#000000"
+                android:pathData="M0,0h232v24h-232z" />
+        </group>
+    </group>
+
+</vector>
